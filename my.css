@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:aqua;
+}
+.main{
+    position: relative;
+    padding: 14px 10px;
+    background: #494747;
+    height: 100vh;
+}
+#box{
+    position: absolute;
+    background-color: var(--color) ;
+    height: 50px;
+    width: 50px;
+    border: 1px solid var(--color);
+    border-radius: 5px;
+}
